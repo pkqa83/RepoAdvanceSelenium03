@@ -39,7 +39,8 @@ public class BaseClass {
 		
 		flib = new FileUtility();
 		
-		String BROWSER = flib.getCommonData("browser");       
+		//String BROWSER = flib.getCommonData("browser"); 
+		String BROWSER = System.getProperty("browser");
         if (BROWSER.equalsIgnoreCase("chrome")) {
 			driver = new ChromeDriver();
 		} else if (BROWSER.equalsIgnoreCase("edge")) {

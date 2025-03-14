@@ -1,0 +1,5 @@
+VTIGER\DDT\Product\ProductCreateDeleteTest.class
+VTIGER\DDT\Campaign\CreateCampaignTest.class
+VTIGER\DDT\Campaign\CreateCampaignAddProductInCampaignTest.class
+VTIGER\DDT\Organization\CreateOrganizationTest.class
+VTIGER\DDT\Product\CreateProductTest.class

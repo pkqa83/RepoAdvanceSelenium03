@@ -15,7 +15,9 @@ public class BaseClass {
 
 //	public static WebDriver driver;
 	public static WebDriver driver;
-	public FileUtility flib;
+	
+	
+	
 	public WebDriverUtility wlib;
 	public JavaUtility jlib = new JavaUtility();
 	public ExcelUtility elib = new ExcelUtility();
@@ -37,7 +39,7 @@ public class BaseClass {
 	@BeforeClass
 	public void BC() throws IOException {   // parameter passsed to method
 		
-		flib = new FileUtility();
+		FileUtility flib = new FileUtility();
 		
 		//String BROWSER = flib.getCommonData("browser"); 
 		String BROWSER = System.getProperty("browser");
@@ -73,7 +75,7 @@ public class BaseClass {
 	public void BM() throws IOException  {
 		
 //		navigate to website
-		flib = new FileUtility();
+		FileUtility flib = new FileUtility();
 		String URL = flib.getCommonData("url");		
 		driver.get(URL);	
 		

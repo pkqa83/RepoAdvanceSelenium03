@@ -19,21 +19,10 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.mysql.cj.jdbc.Driver;
 
-
-
-
-
-
-
-
-
-
 // for list of methods in any class : right click on class -> open Type Hierarchy 
 
 public class WebDriverUtility {
-	
-	
-	
+		
 	private WebDriver driver;
 	
 	public WebDriverUtility(WebDriver driver) {
@@ -144,7 +133,6 @@ public class WebDriverUtility {
 	
 	
 	
-	
 	/**
 	 * This method is used to wait for an element until the page title contains specified text before proceeding with the execution
 	 * It uses WebDriverWait and ExpectedConditions to wait for specific conditions.
@@ -174,16 +162,8 @@ public class WebDriverUtility {
 		return wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(locator));
 	}
 	
-	
-	
-	
+		
 //--------------------------------------------------------------------------------------------------------------------------------	
-
-	
-	
-	
-	
-
 
    /**
     * This method is used to switch WebDriver focus to required window using partial Window title

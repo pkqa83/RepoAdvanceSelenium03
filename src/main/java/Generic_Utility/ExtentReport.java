@@ -12,23 +12,12 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
-
-
-
-
-
-
-
-
-
 public class ExtentReport implements ITestListener{
 		
 	
 	ExtentReports report;
 	ExtentTest test;
 	
-
-	@Override
 	public void onTestStart(ITestResult result) {
 		
 		test = report.createTest(result.getMethod().getMethodName());
@@ -39,7 +28,7 @@ public class ExtentReport implements ITestListener{
 	
 	
 	
-	@Override
+	
 	public void onTestSuccess(ITestResult result) {
 		
 		test.log(Status.PASS, result.getMethod().getMethodName());
@@ -51,7 +40,7 @@ public class ExtentReport implements ITestListener{
 	
 	
 	
-	@Override
+
 	public void onTestFailure(ITestResult result) {
 		
 		test.log(Status.FAIL, result.getMethod().getMethodName());
@@ -94,15 +83,7 @@ public class ExtentReport implements ITestListener{
 		
 	}
 
-	
-	
-	
-	
-	
-	
 
-
-	@Override
 	public void onStart(ITestContext context) {
 		
 		

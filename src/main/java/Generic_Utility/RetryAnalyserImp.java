@@ -9,7 +9,7 @@ public class RetryAnalyserImp implements IRetryAnalyzer{
 	int retryLimit = 3;
 
 	
-	@Override
+
 	public boolean retry(ITestResult result) {
 		
 		if(count < 3) {

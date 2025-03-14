@@ -30,7 +30,7 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry exported="true" kind="lib" path="E:/9_Tools/STS/sts-4.21.1.RELEASE/plugins/org.testng_7.4.0.r202105021533.jar" sourcepath="E:/9_Tools/STS/sts-4.21.1.RELEASE/plugins/org.testng.source_7.4.0.r202105021533.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:\Users\admin\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar" sourcepath="C:\Users\admin\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar"/>
 	<classpathentry kind="src" path="target/generated-sources/annotations">
 		<attributes>
 			<attribute name="optional" value="true"/>

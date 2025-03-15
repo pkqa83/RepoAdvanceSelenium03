@@ -58,13 +58,6 @@ public class LoginPage {
 		passwordTextField.sendKeys(password);
 		loginButton.click();
 	}
-	
-	
-	
-	
 
-	
 
-	
-	
 }
